@@ -37,5 +37,5 @@ spring:
         - id: wishlist-service
           uri: http://localhost:8083   # Puerto de wishlist que vimos en tus pruebas
           predicates:
-            - Path=/api/v1/wishlist/*, /api/v1/wishlist-history/*
+            - Path=/api/v1/wishlist/**, /api/v1/wishlist-history/**
 
